@@ -19,28 +19,25 @@ h1 {
 .flex-grid {
   display: flex;
 }
+
 .flex-grid .col {
-  flex: 1;
+    flex: 1;
     height: 90px; 
     background: #FFFFFA;
 }
 
-
 .flex-grid-sec {
-  display: flex;
-  justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 .flex-grid-sec .col {
-    width: 32%; 
+    width: 24.5%; 
     height: 125px;
     background: #301B99;
 }
 
-
-
 .flex-grid-thi{
     display: flex;
-    
 }
 .flex-grid-thi .col{
     width: 50%;
@@ -48,53 +45,76 @@ h1 {
     background: #EF6461;
 }
 
-
-
 .flex-grid-fou{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
-.flex-grid-fou .col{
-    width: 50%;
-        height: 75px;
+.flex-grid-fou .col {
+    width: 49%;
+    height: 75px;
     background: #008DD5;
 }
 
-
-.flex-grid-fif{
+.flex-grid-fif {
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
 }
 
-.flex-grid-fif .col{
-    width: 80%;
-        height: 70px;
+.flex-grid-fif .col {
+    width: 20%;
+    height: 90px;
     background: #EF6461;
-
 }
 
-
-@media (max-width: 400px) {
-  .flex-grid,
-  .flex-grid-thirds {
-    display: block;
-    .col {
-      width: 100%;
-      margin: 0 0 10px 0;
-    }
-  }
+.mid {
+    width: 55%;
+    height: 90px;
+    background: #FFFFFA;
 }
 
+.flex-grid-six {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-six .col {
+    width: 30%;
+    height: 70px;
+    background: #FFFFFA;
+}
+
+.mid-one {
+    width: 18%;
+    height: 70px;
+    background: #008DD5;
+}
+
+.flex-grid-sev {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-sev .col {
+    width: 19%;
+    height: 70px;
+    background: #301B99;
+}
+
+.mid-two {
+    width: 18%;
+    height: 70px;
+    background: #EF6461;
+}
+    
 * {
   box-sizing: border-box;
 }
 body {
-  padding: 20px;
+  padding: 10px;
 }
 
 .col {
   margin: 0 0 25px 0;
-  padding: 20px;
+  padding: 10px;
 }
