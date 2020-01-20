@@ -12,9 +12,6 @@ body {
     background-color: #212227;
 }
 
-h1 {
-    color: #008DD5;
-}
 
 .flex-grid {
   display: flex;
@@ -36,16 +33,16 @@ h1 {
     background: #301B99;
 }
 
-.flex-grid-thi{
+.flex-grid-thi {
     display: flex;
 }
-.flex-grid-thi .col{
+.flex-grid-thi .col {
     width: 50%;
     height: 40px;
     background: #EF6461;
 }
 
-.flex-grid-fou{
+.flex-grid-fou {
     display: flex;
     justify-content: space-between;   
 }
