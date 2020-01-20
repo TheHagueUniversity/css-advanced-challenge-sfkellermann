@@ -1,0 +1,100 @@
+/*
+COLOR PALETTE
+https://coolors.co/190e4f-cc5a71-212227-637074-2f4550
+#301B99 - blue
+#EF6461 - pastel red
+#212227 - raisin black
+#008DD5 - rich electric blue
+#FFFFFA - baby powder
+*/
+
+body {
+    background-color: #212227;
+}
+
+h1 {
+    color: #008DD5;
+}
+
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+    height: 90px; 
+    background: #FFFFFA;
+}
+
+
+.flex-grid-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-sec .col {
+    width: 32%; 
+    height: 125px;
+    background: #301B99;
+}
+
+
+
+.flex-grid-thi{
+    display: flex;
+    
+}
+.flex-grid-thi .col{
+    width: 50%;
+    height: 40px;
+    background: #EF6461;
+}
+
+
+
+.flex-grid-fou{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex-grid-fou .col{
+    width: 50%;
+        height: 75px;
+    background: #008DD5;
+}
+
+
+.flex-grid-fif{
+    display: flex;
+    justify-content: ;
+}
+
+.flex-grid-fif .col{
+    width: 80%;
+        height: 70px;
+    background: #EF6461;
+
+}
+
+
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+
+.col {
+  margin: 0 0 25px 0;
+  padding: 20px;
+}
